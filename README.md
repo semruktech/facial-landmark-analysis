@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```
 
 ### Usage
-The images you want to calculate fractal dimensions for must be in the images (Supported file types: jpg, png, tif, gif) folder.
+The images you want to analyse facial landmark for must be in the images (Supported file types: jpg, png, tif, gif) folder.
 From the terminal, go to the folder where you extracted the project files. Then the project can be run simply with the following command:
 
 ```bash
@@ -36,7 +36,6 @@ python main.py
 ```
 
 When the interface is running: 
-- Simply click on the location you want to calculate fractal dimension.
-- The second click removes the previous calculation.
-- You can click on the location you want to calculate fractal dimension again.
-- Press q to exit the program.
+- Simply click two points for the calibration.
+- Enter the actual distance between this two calibration points in milimeters.
+- Results will be written in the "results" folder.
